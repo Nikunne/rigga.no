@@ -27,10 +27,16 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## On prem:
+On prem:
+"rigga" is a systemservice that runs the next.js app.
+When running (on-prem)
 
-## Deploy on Vercel
+./deploy-rigga.sh
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+It will pull the latest changes from the repo and deploy it using the script
+If you have access:
+````bash
+ssh hus@192.168.1.104
+./deploy-rigga.sh
+````
