@@ -35,6 +35,9 @@ When running (on-prem)
 ./deploy-rigga.sh
 
 It will pull the latest changes from the repo and deploy it using the script
+
+
+
 If you have access:
 ````bash
 ssh hus@192.168.1.104
